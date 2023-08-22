@@ -12,33 +12,34 @@
 }
 
 
-.nav-menu li  {
+.nav-menu li {
 
     padding: 18px;
     transition: 0.4s;
     margin: 0 10px;
 }
 
-.bleasing_header h3{
+.bleasing_header h3 {
     font-size: 15px;
     color: #73758A;
-    margin-top: 20px;;
+    margin-top: 20px;
+    ;
 }
 
-.nav-menu li:hover{
+.nav-menu li:hover {
     background-color: black;
 }
 
-.nav-menu li:hover a{
+.nav-menu li:hover a {
     color: white;
 }
 
-.bg-white{
+.bg-white {
     background-color: white;
 }
 
 
-.hero-section .bg-image{
+.hero-section .bg-image {
     background-image: url(https://cdn.shopify.com/s/files/1/0600/6938/0246/files/beleasing2-section-bg1.webp?v=1692617310);
     background-size: cover;
     background-position: bottom center;
@@ -47,11 +48,11 @@
     padding-bottom: 150px;
 }
 
-.ht-100{
+.ht-100 {
     height: 94vh;
 }
 
- .mfn-divider-inner {
+.mfn-divider-inner {
     display: flex;
     width: 100%;
     align-items: center;
@@ -61,7 +62,8 @@
     margin: 20px 0;
 }
 
- .mfn-divider-inner:before, .mfn-divider-inner:after {
+.mfn-divider-inner:before,
+.mfn-divider-inner:after {
     border-top-width: var(--mfn-divider-border-width);
     border-bottom-width: 0;
     border-color: var(--mfn-divider-border-color);
@@ -73,7 +75,7 @@ section.hero-section h2 {
     margin-bottom: 50px;
 }
 
-section.hero-section a{
+section.hero-section a {
     color: #ffffff;
     background-color: #16182d;
     border-color: #16182d;
@@ -82,7 +84,7 @@ section.hero-section a{
     padding: 15px 60px;
 }
 
-section.hero-section a:hover{
+section.hero-section a:hover {
     color: #ffffff;
     background-color: #202448;
     border-color: #202448;
@@ -110,7 +112,7 @@ section.hero-section a:hover{
     padding: 0 5px;
 }
 
-.second_sec .mfn-divider-inner{
+.second_sec .mfn-divider-inner {
     margin-bottom: 10px;
 }
 
@@ -124,10 +126,67 @@ section.hero-section a:hover{
     margin-top: 50px;
 }
 
-.section-section img{
+.section-section img {
     width: 100%;
 }
 
 .section-section {
     padding: 100px 0;
 }
+
+
+
+
+/* Footer */
+footer {
+    background: #16182D;
+    padding: 80px;
+    color: #fff;
+}
+
+.linksRow {
+    margin: 80px 0;
+}
+
+.linksRow ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.linksRow ul li {
+    margin-bottom: 8px;
+}
+
+.linksRow ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer ul.darkLinks a {
+    color: #6d6f7d;
+}
+
+footer ul.darkLinks a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer .topSpace {
+    margin-top: 50px;
+}
+
+.copyright {
+    color: #6d6f7d;
+}
+
+.socialIcon li {
+    margin-left: 35px;
+}
+
+/* Footer */
